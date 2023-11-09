@@ -7,5 +7,3 @@ function getDivisorsCnt(n){
     }
     return counter 
 }
-
-console.log(getDivisorsCnt(10))
