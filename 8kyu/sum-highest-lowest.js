@@ -1,5 +1,5 @@
 function sumArray(array) {
-    if(array == null || array.length<2) {
+    if(array == null || array.length<2 || Array.isArray(array)) {
         return 0
     } else {
         let newArray = array.sort((a,b) => a-b)
